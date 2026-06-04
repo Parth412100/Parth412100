@@ -1,0 +1,247 @@
+﻿2026-06-04T06:34:36.9805277Z Current runner version: '2.334.0'
+2026-06-04T06:34:36.9835215Z ##[group]Runner Image Provisioner
+2026-06-04T06:34:36.9836208Z Hosted Compute Agent
+2026-06-04T06:34:36.9836894Z Version: 20260520.533
+2026-06-04T06:34:36.9838081Z Commit: 189110e25284a9812c124fd27b339e2fb4f2f9db
+2026-06-04T06:34:36.9839031Z Build Date: 2026-05-20T17:44:04Z
+2026-06-04T06:34:36.9839924Z Worker ID: {9470df8d-55ee-4607-8aaa-0eb7e2b5af8a}
+2026-06-04T06:34:36.9840818Z Azure Region: northcentralus
+2026-06-04T06:34:36.9841549Z ##[endgroup]
+2026-06-04T06:34:36.9843275Z ##[group]Operating System
+2026-06-04T06:34:36.9844065Z Ubuntu
+2026-06-04T06:34:36.9844666Z 24.04.4
+2026-06-04T06:34:36.9845392Z LTS
+2026-06-04T06:34:36.9846028Z ##[endgroup]
+2026-06-04T06:34:36.9846821Z ##[group]Runner Image
+2026-06-04T06:34:36.9847754Z Image: ubuntu-24.04
+2026-06-04T06:34:36.9848446Z Version: 20260525.161.1
+2026-06-04T06:34:36.9850152Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260525.161/images/ubuntu/Ubuntu2404-Readme.md
+2026-06-04T06:34:36.9852119Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260525.161
+2026-06-04T06:34:36.9853480Z ##[endgroup]
+2026-06-04T06:34:36.9854949Z ##[group]GITHUB_TOKEN Permissions
+2026-06-04T06:34:36.9857103Z Contents: read
+2026-06-04T06:34:36.9857950Z Metadata: read
+2026-06-04T06:34:36.9858749Z Packages: read
+2026-06-04T06:34:36.9859466Z ##[endgroup]
+2026-06-04T06:34:36.9861980Z Secret source: Actions
+2026-06-04T06:34:36.9862908Z Prepare workflow directory
+2026-06-04T06:34:37.0133958Z Prepare all required actions
+2026-06-04T06:34:37.0166116Z Getting action download info
+2026-06-04T06:34:37.4252093Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-06-04T06:34:37.5151533Z Download action repository 'Platane/snk@v3' (SHA:d8f6715049803e982ee5ff501b6b9b7d5deeb09b)
+2026-06-04T06:34:37.7460400Z Download action repository 'crazy-max/ghaction-github-pages@v4' (SHA:df5cc2bfa78282ded844b354faee141f06b41865)
+2026-06-04T06:34:38.0854268Z Complete job name: build
+2026-06-04T06:34:38.1261326Z ##[group]Pull down action image 'platane/snk@sha256:3a66a51ca8eaecc1e841bc8baae39bd88079e57419850d1ed005eee2bbfce940'
+2026-06-04T06:34:38.1298435Z ##[command]/usr/bin/docker pull platane/snk@sha256:3a66a51ca8eaecc1e841bc8baae39bd88079e57419850d1ed005eee2bbfce940
+2026-06-04T06:34:38.8674418Z docker.io/platane/snk@sha256:3a66a51ca8eaecc1e841bc8baae39bd88079e57419850d1ed005eee2bbfce940: Pulling from platane/snk
+2026-06-04T06:34:39.1071848Z 5435b2dcdf5c: Pulling fs layer
+2026-06-04T06:34:39.1073099Z c3d756b0dd1f: Pulling fs layer
+2026-06-04T06:34:39.1074485Z 78c35352443c: Pulling fs layer
+2026-06-04T06:34:39.1075726Z dc3469051410: Pulling fs layer
+2026-06-04T06:34:39.1076892Z 369fb0676ce3: Pulling fs layer
+2026-06-04T06:34:39.1078315Z 1c682d5cc13c: Pulling fs layer
+2026-06-04T06:34:39.1079360Z 6870c5dcbc27: Pulling fs layer
+2026-06-04T06:34:39.1080492Z 3cebb2501e73: Pulling fs layer
+2026-06-04T06:34:39.1081575Z cb7bf42cf969: Pulling fs layer
+2026-06-04T06:34:39.1082791Z 1c682d5cc13c: Waiting
+2026-06-04T06:34:39.1083785Z 6870c5dcbc27: Waiting
+2026-06-04T06:34:39.1084708Z dc3469051410: Waiting
+2026-06-04T06:34:39.1085603Z 369fb0676ce3: Waiting
+2026-06-04T06:34:39.1086612Z 3cebb2501e73: Waiting
+2026-06-04T06:34:39.1087760Z cb7bf42cf969: Waiting
+2026-06-04T06:34:39.2160517Z c3d756b0dd1f: Download complete
+2026-06-04T06:34:39.3013241Z 5435b2dcdf5c: Verifying Checksum
+2026-06-04T06:34:39.3017088Z 5435b2dcdf5c: Download complete
+2026-06-04T06:34:39.3309214Z dc3469051410: Verifying Checksum
+2026-06-04T06:34:39.3312115Z dc3469051410: Download complete
+2026-06-04T06:34:39.3505827Z 78c35352443c: Verifying Checksum
+2026-06-04T06:34:39.3511712Z 78c35352443c: Download complete
+2026-06-04T06:34:39.3855672Z 369fb0676ce3: Download complete
+2026-06-04T06:34:39.4198189Z 1c682d5cc13c: Download complete
+2026-06-04T06:34:39.4426867Z 6870c5dcbc27: Verifying Checksum
+2026-06-04T06:34:39.4428755Z 6870c5dcbc27: Download complete
+2026-06-04T06:34:39.5103971Z cb7bf42cf969: Verifying Checksum
+2026-06-04T06:34:39.5106221Z cb7bf42cf969: Download complete
+2026-06-04T06:34:39.5539566Z 3cebb2501e73: Download complete
+2026-06-04T06:34:40.2176342Z 5435b2dcdf5c: Pull complete
+2026-06-04T06:34:43.5407355Z c3d756b0dd1f: Pull complete
+2026-06-04T06:34:44.3731285Z 78c35352443c: Pull complete
+2026-06-04T06:34:44.3834165Z dc3469051410: Pull complete
+2026-06-04T06:34:44.3968569Z 369fb0676ce3: Pull complete
+2026-06-04T06:34:44.4072197Z 1c682d5cc13c: Pull complete
+2026-06-04T06:34:44.4175059Z 6870c5dcbc27: Pull complete
+2026-06-04T06:34:45.4160701Z 3cebb2501e73: Pull complete
+2026-06-04T06:34:45.4269058Z cb7bf42cf969: Pull complete
+2026-06-04T06:34:45.4307374Z Digest: sha256:3a66a51ca8eaecc1e841bc8baae39bd88079e57419850d1ed005eee2bbfce940
+2026-06-04T06:34:45.4313990Z Status: Downloaded newer image for platane/snk@sha256:3a66a51ca8eaecc1e841bc8baae39bd88079e57419850d1ed005eee2bbfce940
+2026-06-04T06:34:45.4322632Z docker.io/platane/snk@sha256:3a66a51ca8eaecc1e841bc8baae39bd88079e57419850d1ed005eee2bbfce940
+2026-06-04T06:34:45.4348625Z ##[endgroup]
+2026-06-04T06:34:45.4571365Z ##[group]Run actions/checkout@v4
+2026-06-04T06:34:45.4571796Z with:
+2026-06-04T06:34:45.4572006Z   repository: Parth412100/Parth412100
+2026-06-04T06:34:45.4574603Z   token: ***
+2026-06-04T06:34:45.4574785Z   ssh-strict: true
+2026-06-04T06:34:45.4574963Z   ssh-user: git
+2026-06-04T06:34:45.4575251Z   persist-credentials: true
+2026-06-04T06:34:45.4575447Z   clean: true
+2026-06-04T06:34:45.4575630Z   sparse-checkout-cone-mode: true
+2026-06-04T06:34:45.4575844Z   fetch-depth: 1
+2026-06-04T06:34:45.4576014Z   fetch-tags: false
+2026-06-04T06:34:45.4576194Z   show-progress: true
+2026-06-04T06:34:45.4576375Z   lfs: false
+2026-06-04T06:34:45.4576540Z   submodules: false
+2026-06-04T06:34:45.4576715Z   set-safe-directory: true
+2026-06-04T06:34:45.4577053Z ##[endgroup]
+2026-06-04T06:34:45.5462558Z Syncing repository: Parth412100/Parth412100
+2026-06-04T06:34:45.5463681Z ##[group]Getting Git version info
+2026-06-04T06:34:45.5464132Z Working directory is '/home/runner/work/Parth412100/Parth412100'
+2026-06-04T06:34:45.5464651Z [command]/usr/bin/git version
+2026-06-04T06:34:45.5501326Z git version 2.54.0
+2026-06-04T06:34:45.5520497Z ##[endgroup]
+2026-06-04T06:34:45.5532086Z Temporarily overriding HOME='/home/runner/work/_temp/a64e041a-4047-4ed5-ad00-0985c5d1cb35' before making global git config changes
+2026-06-04T06:34:45.5532696Z Adding repository directory to the temporary git global config as a safe directory
+2026-06-04T06:34:45.5543552Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Parth412100/Parth412100
+2026-06-04T06:34:45.5571564Z Deleting the contents of '/home/runner/work/Parth412100/Parth412100'
+2026-06-04T06:34:45.5574307Z ##[group]Initializing the repository
+2026-06-04T06:34:45.5577656Z [command]/usr/bin/git init /home/runner/work/Parth412100/Parth412100
+2026-06-04T06:34:45.5638659Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-06-04T06:34:45.5639533Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-06-04T06:34:45.5640344Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-06-04T06:34:45.5640989Z hint: call:
+2026-06-04T06:34:45.5641360Z hint:
+2026-06-04T06:34:45.5641819Z hint: 	git config --global init.defaultBranch <name>
+2026-06-04T06:34:45.5642323Z hint:
+2026-06-04T06:34:45.5642787Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-06-04T06:34:45.5643540Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-06-04T06:34:45.5644141Z hint:
+2026-06-04T06:34:45.5644488Z hint: 	git branch -m <name>
+2026-06-04T06:34:45.5644905Z hint:
+2026-06-04T06:34:45.5645419Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-06-04T06:34:45.5646215Z Initialized empty Git repository in /home/runner/work/Parth412100/Parth412100/.git/
+2026-06-04T06:34:45.5650128Z [command]/usr/bin/git remote add origin https://github.com/Parth412100/Parth412100
+2026-06-04T06:34:45.5675712Z ##[endgroup]
+2026-06-04T06:34:45.5676261Z ##[group]Disabling automatic garbage collection
+2026-06-04T06:34:45.5679681Z [command]/usr/bin/git config --local gc.auto 0
+2026-06-04T06:34:45.5702341Z ##[endgroup]
+2026-06-04T06:34:45.5702789Z ##[group]Setting up auth
+2026-06-04T06:34:45.5708012Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-06-04T06:34:45.5731707Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-06-04T06:34:45.5978600Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-06-04T06:34:45.6002821Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-06-04T06:34:45.6187468Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-06-04T06:34:45.6212162Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-06-04T06:34:45.6410698Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-06-04T06:34:45.6439415Z ##[endgroup]
+2026-06-04T06:34:45.6439956Z ##[group]Fetching the repository
+2026-06-04T06:34:45.6446482Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +0afeafef66603f6d07138c21fe20622662d64f7e:refs/remotes/origin/main
+2026-06-04T06:34:45.9348579Z From https://github.com/Parth412100/Parth412100
+2026-06-04T06:34:45.9349360Z  * [new ref]         0afeafef66603f6d07138c21fe20622662d64f7e -> origin/main
+2026-06-04T06:34:45.9371007Z ##[endgroup]
+2026-06-04T06:34:45.9371548Z ##[group]Determining the checkout info
+2026-06-04T06:34:45.9373020Z ##[endgroup]
+2026-06-04T06:34:45.9379119Z [command]/usr/bin/git sparse-checkout disable
+2026-06-04T06:34:45.9412860Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-06-04T06:34:45.9435572Z ##[group]Checking out the ref
+2026-06-04T06:34:45.9439508Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-06-04T06:34:45.9474692Z Switched to a new branch 'main'
+2026-06-04T06:34:45.9476772Z branch 'main' set up to track 'origin/main'.
+2026-06-04T06:34:45.9482698Z ##[endgroup]
+2026-06-04T06:34:45.9516615Z [command]/usr/bin/git log -1 --format=%H
+2026-06-04T06:34:45.9536540Z 0afeafef66603f6d07138c21fe20622662d64f7e
+2026-06-04T06:34:45.9695765Z ##[group]Run Platane/snk@v3
+2026-06-04T06:34:45.9695983Z with:
+2026-06-04T06:34:45.9696161Z   github_user_name: Parth412100
+2026-06-04T06:34:45.9696594Z   outputs: dist/github-contribution-grid-snake.svg
+dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+2026-06-04T06:34:45.9699591Z   github_token: ***
+2026-06-04T06:34:45.9699806Z ##[endgroup]
+2026-06-04T06:34:45.9778084Z ##[command]/usr/bin/docker run --name platanesnksha2563a66a51ca8eaecc1e841bc8baae39bd88079e57419850d1ed005eee2bbfce940_a85b93 --label 728b02 --workdir /github/workspace --rm -e "INPUT_GITHUB_USER_NAME" -e "INPUT_OUTPUTS" -e "INPUT_GITHUB_TOKEN" -e "HOME" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_ENVIRONMENT" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" -e "ACTIONS_RESULTS_URL" -e "ACTIONS_ORCHESTRATION_ID" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/runner/work/_temp":"/github/runner_temp" -v "/home/runner/work/_temp/_github_home":"/github/home" -v "/home/runner/work/_temp/_github_workflow":"/github/workflow" -v "/home/runner/work/_temp/_runner_file_commands":"/github/file_commands" -v "/home/runner/work/Parth412100/Parth412100":"/github/workspace" platane/snk@sha256:3a66a51ca8eaecc1e841bc8baae39bd88079e57419850d1ed005eee2bbfce940
+2026-06-04T06:34:46.1492480Z 🎣 fetching user contribution from github
+2026-06-04T06:34:46.5025704Z 📡 computing best route
+2026-06-04T06:34:49.7436688Z 🖌 creating svg (outputs[0])
+2026-06-04T06:34:49.7448876Z 🖌 creating svg (outputs[1])
+2026-06-04T06:34:49.7530894Z 💾 writing to dist/github-contribution-grid-snake.svg
+2026-06-04T06:34:49.7532852Z 💾 writing to dist/github-contribution-grid-snake-dark.svg
+2026-06-04T06:34:49.8301006Z ##[group]Run crazy-max/ghaction-github-pages@v4
+2026-06-04T06:34:49.8301271Z with:
+2026-06-04T06:34:49.8301438Z   target_branch: output
+2026-06-04T06:34:49.8301632Z   build_dir: dist
+2026-06-04T06:34:49.8301801Z   domain: github.com
+2026-06-04T06:34:49.8301980Z   keep_history: false
+2026-06-04T06:34:49.8302165Z   allow_empty_commit: true
+2026-06-04T06:34:49.8302358Z   absolute_build_dir: false
+2026-06-04T06:34:49.8302564Z   follow_symlinks: false
+2026-06-04T06:34:49.8302746Z   jekyll: true
+2026-06-04T06:34:49.8302907Z   dry_run: false
+2026-06-04T06:34:49.8303071Z   verbose: false
+2026-06-04T06:34:49.8303225Z env:
+2026-06-04T06:34:49.8305748Z   GITHUB_TOKEN: ***
+2026-06-04T06:34:49.8305938Z ##[endgroup]
+2026-06-04T06:34:50.0961076Z ##[group]Initializing local git repo
+2026-06-04T06:34:50.0973071Z [command]/usr/bin/git init .
+2026-06-04T06:34:50.1006636Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-06-04T06:34:50.1007672Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-06-04T06:34:50.1008416Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-06-04T06:34:50.1008975Z hint: call:
+2026-06-04T06:34:50.1009279Z hint:
+2026-06-04T06:34:50.1009663Z hint: 	git config --global init.defaultBranch <name>
+2026-06-04T06:34:50.1010125Z hint:
+2026-06-04T06:34:50.1010559Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-06-04T06:34:50.1011219Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-06-04T06:34:50.1011798Z hint:
+2026-06-04T06:34:50.1012064Z hint: 	git branch -m <name>
+2026-06-04T06:34:50.1012401Z hint:
+2026-06-04T06:34:50.1012805Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-06-04T06:34:50.1013466Z Initialized empty Git repository in /tmp/github-pages-H10tBB/.git/
+2026-06-04T06:34:50.1030215Z [command]/usr/bin/git checkout --orphan output
+2026-06-04T06:34:50.1048524Z Switched to a new branch 'output'
+2026-06-04T06:34:50.1053881Z ##[endgroup]
+2026-06-04T06:34:50.1055287Z ##[group]Copying /home/runner/work/Parth412100/Parth412100/dist to /tmp/github-pages-H10tBB
+2026-06-04T06:34:50.1080519Z ...3 file(s) copied.
+2026-06-04T06:34:50.1081897Z ##[endgroup]
+2026-06-04T06:34:50.1122762Z ##[group]Configuring git committer
+2026-06-04T06:34:50.1132061Z [command]/usr/bin/git config user.name GitHub
+2026-06-04T06:34:50.1163447Z [command]/usr/bin/git config user.email noreply@github.com
+2026-06-04T06:34:50.1184691Z ##[endgroup]
+2026-06-04T06:34:50.1215393Z ##[group]Updating index of working tree
+2026-06-04T06:34:50.1226125Z [command]/usr/bin/git add --all .
+2026-06-04T06:34:50.1257264Z ##[endgroup]
+2026-06-04T06:34:50.1258282Z ##[group]Committing changes
+2026-06-04T06:34:50.1268486Z [command]/usr/bin/git commit --allow-empty --author github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> --message Deploy to GitHub pages
+2026-06-04T06:34:50.1315304Z [output (root-commit) 5d7b0d3] Deploy to GitHub pages
+2026-06-04T06:34:50.1315910Z  Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+2026-06-04T06:34:50.1316447Z  2 files changed, 2 insertions(+)
+2026-06-04T06:34:50.1316958Z  create mode 100644 github-contribution-grid-snake-dark.svg
+2026-06-04T06:34:50.1317437Z  create mode 100644 github-contribution-grid-snake.svg
+2026-06-04T06:34:50.1355715Z commit 5d7b0d323e5e4446322b6dfcb281d35309f8a36f
+2026-06-04T06:34:50.1356305Z Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+2026-06-04T06:34:50.1356839Z Date:   Thu Jun 4 06:34:50 2026 +0000
+2026-06-04T06:34:50.1357067Z 
+2026-06-04T06:34:50.1357181Z     Deploy to GitHub pages
+2026-06-04T06:34:50.1357377Z 
+2026-06-04T06:34:50.1357819Z  github-contribution-grid-snake-dark.svg | 1 +
+2026-06-04T06:34:50.1358308Z  github-contribution-grid-snake.svg      | 1 +
+2026-06-04T06:34:50.1358697Z  2 files changed, 2 insertions(+)
+2026-06-04T06:34:50.1359239Z ##[endgroup]
+2026-06-04T06:34:50.1360187Z ##[group]Pushing dist directory to output branch on Parth412100/Parth412100 repo
+2026-06-04T06:34:50.1370523Z [command]/usr/bin/git push --force ***github.com/Parth412100/Parth412100.git output
+2026-06-04T06:34:50.3050965Z remote: Permission to Parth412100/Parth412100.git denied to github-actions[bot].
+2026-06-04T06:34:50.3051763Z fatal: unable to access 'https://github.com/Parth412100/Parth412100.git/': The requested URL returned error: 403
+2026-06-04T06:34:50.3085721Z ##[error]The process '/usr/bin/git' failed with exit code 128
+2026-06-04T06:34:50.3172635Z Post job cleanup.
+2026-06-04T06:34:50.3959056Z [command]/usr/bin/git version
+2026-06-04T06:34:50.3987353Z git version 2.54.0
+2026-06-04T06:34:50.4020187Z Temporarily overriding HOME='/home/runner/work/_temp/21543441-a199-48f2-a5dc-5ef44014bc07' before making global git config changes
+2026-06-04T06:34:50.4021538Z Adding repository directory to the temporary git global config as a safe directory
+2026-06-04T06:34:50.4025036Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Parth412100/Parth412100
+2026-06-04T06:34:50.4052675Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-06-04T06:34:50.4079695Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-06-04T06:34:50.4266205Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-06-04T06:34:50.4283560Z http.https://github.com/.extraheader
+2026-06-04T06:34:50.4292586Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-06-04T06:34:50.4316382Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-06-04T06:34:50.4497938Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-06-04T06:34:50.4523279Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-06-04T06:34:50.4796592Z Cleaning up orphan processes
+2026-06-04T06:34:50.5046078Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, crazy-max/ghaction-github-pages@v4. Actions will be forced to run with Node.js 24 by default starting June 16th, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
