@@ -45,10 +45,10 @@
     { Parth Shinde }
   </text>
   <text x="50" y="135" font-family="'Courier New', monospace" font-size="15" fill="#888">
-    "role": "Full-Stack Developer",
+    "role": "Game Developer / Content Creator",
   </text>
   <text x="50" y="158" font-family="'Courier New', monospace" font-size="15" fill="#888">
-    "vibe": "Automation Architect · Building elegant solutions"
+    "vibe": "Building cool things with code & creativity"
   </text>
   <g transform="translate(50, 175)">
     <rect x="0" y="0" width="280" height="2" rx="1" fill="url(#accent)"/>

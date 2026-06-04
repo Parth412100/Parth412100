@@ -7,19 +7,19 @@
 ⚡ P A R T H   S H I N D E ⚡
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  Full-Stack Developer  ·  Automation Architect
-  Building elegant solutions, one commit at a time
+  🎮 Game Developer  ·  🎬 Video Content Creator
+  Building cool things with code & creativity
 
-  [ System Status: Online ]  [ Mood: Creative ]  [ Stack: Full ]
+  [ Status: Leveling Up ]  [ Mood: Creative ]  [ Class: Dev ]
 
         /\_/\
-       ( o.o )  < meow, let's build something rad
+       ( o.o )  < let's build something epic
         > ^ <
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=800&color=8B5CF6&center=true&vCenter=true&width=480&lines=Full-Stack+Developer;React+%7C+Node.js+%7C+Python;Automation+%7C+DevOps+%7C+Cloud;Always+learning%2C+always+building;%22First%2C+solve+the+problem.%22" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=800&color=8B5CF6&center=true&vCenter=true&width=480&lines=🎮+Game+Developer;🎬+Video+Content+Creator;💻+Full-Stack+Developer;React+%7C+Node.js+%7C+Python;Always+learning%2C+always+building;%22GG+WP%22" alt="Typing SVG" />
 </p>
 
 <br>
@@ -62,22 +62,32 @@
   WHOAMI
 ──────────────────────────────────────────────────
   name:       Parth Shinde
-  aka:        Automation enthusiast who loves cats & code
-  role:       Full-Stack Developer
-  location:   somewhere in the terminal
+  aka:        pixel pusher & frame chaser
+  title:      🎮 Game Developer  |  🎬 Video Content Creator
+  class:      Creative Technologist / Full-Stack Dev
+  spawn:      somewhere in the terminal
 ──────────────────────────────────────────────────
-  SUPER_POWERS:
-    - turning coffee into code ☕ → 💻
-    - automating everything in sight
-    - finding bugs by accident (and fixing them)
-    - writing code that works on the first try
-      (okay, maybe the third try)
+  SKILL_TREE:
+    🎮 Game Dev:
+      - game design, mechanics, interactive experiences
+      - building worlds one function at a time
+    🎬 Content Creation:
+      - video editing, scripting, storytelling
+      - turning code into watchable content
+    💻 Full-Stack:
+      - React, Node.js, Python, automation
+      - making computers do the hard part
 ──────────────────────────────────────────────────
-  CURRENT_OBSESSIONS:
-    - building cool stuff with Node.js & React
-    - automating my entire workflow
+  CURRENT_QUESTS:
+    - developing a game that doesn't crash (challenge level: hard)
+    - creating content that people actually watch
     - collecting shiny tech badges
     - making this README ✨aesthetic✨
+──────────────────────────────────────────────────
+  PASSIVE_ABILITIES:
+    - ☕ coffee-powered coding (+50% stamina)
+    - 🐛 bug magnet (attracts bugs, then squashes them)
+    - 🎵 flow state (immunity to distractions)
 ──────────────────────────────────────────────────
   FUN_FACT:  I name my servers after anime characters
 ──────────────────────────────────────────────────
