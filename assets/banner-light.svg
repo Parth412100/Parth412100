@@ -1,0 +1,36 @@
+<svg width="1000" height="200" viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#f5f0ff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7C3AED"/>
+      <stop offset="100%" style="stop-color:#5B21B6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="200" fill="url(#bg)" rx="16"/>
+  <g opacity="0.04">
+    <circle cx="100" cy="50" r="80" fill="#7C3AED"/>
+    <circle cx="900" cy="150" r="100" fill="#5B21B6"/>
+    <circle cx="500" cy="200" r="120" fill="#7C3AED"/>
+  </g>
+  <text x="50" y="80" font-family="monospace" font-size="36" font-weight="bold" fill="#7C3AED">
+    Parth Shinde
+  </text>
+  <text x="50" y="115" font-family="monospace" font-size="16" fill="#666">
+    Full-Stack Developer  ·  Automation Architect
+  </text>
+  <text x="50" y="140" font-family="monospace" font-size="12" fill="#999">
+    Building elegant solutions, one commit at a time
+  </text>
+  <g transform="translate(50, 155)">
+    <rect x="0" y="0" width="200" height="3" rx="1.5" fill="url(#accent)"/>
+  </g>
+  <g transform="translate(750, 50)">
+    <rect x="0" y="0" width="200" height="100" rx="12" fill="rgba(124,58,237,0.06)" stroke="rgba(124,58,237,0.15)" stroke-width="1"/>
+    <text x="100" y="35" font-family="monospace" font-size="10" fill="#888" text-anchor="middle">CONTRIBUTIONS</text>
+    <text x="100" y="60" font-family="monospace" font-size="28" font-weight="bold" fill="#7C3AED" text-anchor="middle">15+</text>
+    <text x="100" y="80" font-family="monospace" font-size="10" fill="#888" text-anchor="middle">repositories</text>
+  </g>
+</svg>
